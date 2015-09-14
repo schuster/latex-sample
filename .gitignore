@@ -1,3 +1,6 @@
+## Target file
+latex-sample.pdf
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

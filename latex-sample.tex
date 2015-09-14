@@ -1,0 +1,50 @@
+\documentclass{article}
+
+\usepackage{amsfonts}
+\usepackage{mathrsfs}
+
+% abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+\newcommand{\fontsizephrase}{The quick brown fox jumps over the lazy dog.}
+\newcommand{\fontsizetest}{
+  tiny: {\tiny \fontsizephrase}\\
+  scriptsize: {\scriptsize \fontsizephrase}\\
+  footnotesize: {\footnotesize \fontsizephrase}\\
+  small: {\small \fontsizephrase}\\
+  normalsize: {\normalsize \fontsizephrase}\\
+  large: {\large \fontsizephrase}\\
+  Large: {\Large \fontsizephrase}\\
+  LARGE: {\LARGE \fontsizephrase}\\
+  huge: {\huge \fontsizephrase}\\
+  Huge: {\Huge \fontsizephrase}\\
+}
+
+\begin{document}
+
+\section{Font Sizes}
+
+\fontsizetest
+
+\section{Math Fonts}
+
+mathnormal: $\mathnormal{\fontsizephrase}$
+
+mathrm: $\mathrm{\fontsizephrase}$
+
+mathit: $\mathit{\fontsizephrase}$
+
+mathbf: $\mathbf{\fontsizephrase}$
+
+mathsf: $\mathsf{\fontsizephrase}$
+
+mathtt: $\mathtt{\fontsizephrase}$
+
+mathfrak: $\mathfrak{\fontsizephrase}$
+
+mathcal: $\mathcal{\fontsizephrase}$
+
+mathbb: $\mathbb{\fontsizephrase}$
+
+mathscr: $\mathscr{\fontsizephrase}$
+
+\end{document}
